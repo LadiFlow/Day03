@@ -5,5 +5,5 @@ function main() {
     // Only change code above this line
     return x;
 }
-main();
+console.log(main());
 module.exports = main;
