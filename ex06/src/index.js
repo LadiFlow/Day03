@@ -5,9 +5,10 @@ function main() {
     var z;
     x = 9;
     y = 16;
-    z = "My name is John!";
+    z = "My name is";
+    z = z + " John!";
     // Only change code above this line
     return [x, y, z];
 }
-main();
+console.log(main());
 module.exports = main;
